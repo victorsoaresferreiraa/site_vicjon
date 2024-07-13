@@ -32,7 +32,7 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     #meus projetos
-    'project',
+    'infra_project',
     
     'django.contrib.admin',
     'django.contrib.auth',
