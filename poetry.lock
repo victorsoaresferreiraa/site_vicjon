@@ -285,20 +285,20 @@ test = ["enum34", "ipaddress", "mock", "pywin32", "wmi"]
 
 [[package]]
 name = "pytest"
-version = "8.2.2"
+version = "8.3.2"
 description = "pytest: simple powerful testing with Python"
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "pytest-8.2.2-py3-none-any.whl", hash = "sha256:c434598117762e2bd304e526244f67bf66bbd7b5d6cf22138be51ff661980343"},
-    {file = "pytest-8.2.2.tar.gz", hash = "sha256:de4bb8104e201939ccdc688b27a89a7be2079b22e2bd2b07f806b6ba71117977"},
+    {file = "pytest-8.3.2-py3-none-any.whl", hash = "sha256:4ba08f9ae7dcf84ded419494d229b48d0903ea6407b030eaec46df5e6a73bba5"},
+    {file = "pytest-8.3.2.tar.gz", hash = "sha256:c132345d12ce551242c87269de812483f5bcc87cdbb4722e48487ba194f9fdce"},
 ]
 
 [package.dependencies]
 colorama = {version = "*", markers = "sys_platform == \"win32\""}
 iniconfig = "*"
 packaging = "*"
-pluggy = ">=1.5,<2.0"
+pluggy = ">=1.5,<2"
 
 [package.extras]
 dev = ["argcomplete", "attrs (>=19.2)", "hypothesis (>=3.56)", "mock", "pygments (>=2.7.2)", "requests", "setuptools", "xmlschema"]
@@ -416,4 +416,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.12"
-content-hash = "56d8656b912a5b7066b0e245976cbf9c9de3e6a543c580d98a53cfa372a373df"
+content-hash = "2d3e8c4d42a16f5ed5458930cc58b6f6e91aa125de6c9e9fa4c361c86d575fb9"
